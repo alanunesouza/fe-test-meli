@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  min-height: 3.5rem;
+  background-color: #fff159;
+  padding: 8px;
+}
+
+.centerHeader {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.logoContainer {
+  display: flex;
+  flex: .7;
+}
+
+.logo {
+  background-image: url('https://http2.mlstatic.com/frontend-assets/ui-navigation/5.10.1/mercadolibre/logo-pt__large_plus.png');
+  background-size: 134px 34px;
+  width: 134px;
+  height: 34px;
+}
+
+.leftHeader {
+  display: flex;
+  flex: .7;
+  justify-content: flex-end;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .centerHeader {
+    flex-direction: column;
+  }
+
+  .logoContainer {
+    margin-bottom: 12px;
+  }
+}

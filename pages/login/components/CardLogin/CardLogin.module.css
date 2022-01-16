@@ -1,0 +1,46 @@
+.card {
+  background-color: #fff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
+  margin: -6.875rem auto 0 auto;
+  max-width: 26.5rem;
+  min-height: 25.5625rem;
+  padding: 2rem 4rem;
+  border-radius: 6px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  color: rgba(0,0,0,.8);
+  font-weight: 600;
+  letter-spacing: .0125rem;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.buttonSubmit {
+  margin-top: 1rem;
+}
+
+.inputLogged {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.inputLoggedText {
+  display: inline;
+  font-size: .75rem;
+  font-weight: 600;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 18px;
+  }
+}

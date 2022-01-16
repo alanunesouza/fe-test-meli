@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ededed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+#nprogress {
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  pointer-events: auto;
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+
+#nprogress .spinner {
+  top: 50% !important;
+  left: 50%;
+  margin-top: -50px;
+}
+
+#nprogress .spinner .spinner-icon {
+  width: 32px;
+  height: 32px;
+}
